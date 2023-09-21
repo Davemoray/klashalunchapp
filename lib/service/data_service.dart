@@ -1,6 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 import '../model/ingredient_model.dart';
+import '../model/recipe_model.dart';
 
 part 'data_service.g.dart';
 
@@ -12,4 +13,7 @@ abstract class GetDataService{
 
   @GET("/ingredients")
   Future<List<IngredientModel>> getIngredients();
+
+  @GET("/recipes")
+  Future<List<RecipeModel>> getReceipes();
 }

@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:klashalunchapp/view/landing_screen.dart';
 
-import 'view/home_screen.dart';
+import 'view/ingredient_screen.dart';
 
 
 void main() {
