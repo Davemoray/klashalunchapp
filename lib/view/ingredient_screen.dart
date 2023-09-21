@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:klashalunchapp/controller/ingredient_controller.dart';
-import 'package:klashalunchapp/view/receipe_screen.dart';
+import 'package:klashalunchapp/view/recipe_screen.dart';
 
 import '../components/fridge_items.dart';
 import '../model/ingredient_model.dart';
